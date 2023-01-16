@@ -35,7 +35,6 @@ def shift_dec(cipherText, key):
 if __name__ == "__main__":
   # plText = "TMHENQL NBDZM DQZ EQDPTDMS"
     plText = input("please enter a plaintext:\n")
-#   print(plText, type(plText))
     print("============result=============")
     for i in range(0,26):
         print("".join(shift_dec(plText, i)))
